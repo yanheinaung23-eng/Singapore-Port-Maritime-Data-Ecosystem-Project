@@ -66,7 +66,69 @@ The model achieved **95.49%** accuracy and an recall of **96.45%** on unseen tes
 
 View the full python code here. [Full python notebook](https://github.com/yanheinaung23-eng/Singapore-Port-Maritime-Data-Ecosystem-Project/blob/fe580e423a56829b5de75b3c20c7fbc1691e1520/01_Vessel%20Delay%20Prediction%20Model/singapore_port_vessel_delay_prediction_model.ipynb)
 
+### Decision Tree vs Random Forest
+
+Two supervised learning algorithms were implemented.
+
 ---
+
+### Models Classification Reports
+
+![Alt image](https://github.com/yanheinaung23-eng/Singapore-Port-Maritime-Data-Ecosystem-Project/blob/4cf090530961dc49f3a11e2df07227aae822ef49/01_Vessel%20Delay%20Prediction%20Model/images/model%20evaluations.png)
+
+The **Random Forest model** outperformed the Decision Tree across every evaluation metric and was selected as the final prediction model.
+
+---
+
+### Feature Importance
+
+![ALt image](https://github.com/yanheinaung23-eng/Singapore-Port-Maritime-Data-Ecosystem-Project/blob/4cf090530961dc49f3a11e2df07227aae822ef49/01_Vessel%20Delay%20Prediction%20Model/images/feature%20importance.png)
+
+Both the Random Forest and Decision Tree models consistently identified a similar group of variables as the most influential predictors of vessel delays. This suggests that vessel movement characteristics, geographic location, destination, and vessel dimensions play a critical role in predicting delays at the Port of Singapore.
+
+***Insights***
+
+* **Speed** is the strongest predictor of vessel delays in both models.
+* **Latitude and Longitude** show that a vessel's location before arrival is highly informative.
+* **Destination** consistently ranks among the most important operational features.
+* **Vessel size** (draught and dimensions) has a substantial impact on delay likelihood.
+
+---
+
+### Confusion Matrix
+
+![alt image](https://github.com/yanheinaung23-eng/Singapore-Port-Maritime-Data-Ecosystem-Project/blob/4cf090530961dc49f3a11e2df07227aae822ef49/01_Vessel%20Delay%20Prediction%20Model/images/confusion%20matrix.png)
+
+#### 🚢 Random Forest Performance
+Correctly Predicted Delays
+
+**True Positives (TP): 82,658**
+
+* The model successfully identified 82,658 delayed vessels, representing the majority of actual delays.
+
+**True Negatives (TN): 33,746**
+
+* The model accurately classified 33,746 vessels that arrived without delays.
+
+**False Positives (FP): 2,444**
+
+* These are vessels predicted to be delayed but actually arrived on time.
+This represents only about 2.0% of the test dataset.
+
+**False Negatives (FN): 3,046**
+
+* These vessels experienced delays but were predicted to arrive on time. This accounts for approximately 2.5% of the test dataset.
+
+***The Random Forest keeps these missed cases relatively low.***
+
+---
+
+### ROC Curve
+
+![alt image](https://github.com/yanheinaung23-eng/Singapore-Port-Maritime-Data-Ecosystem-Project/blob/4cf090530961dc49f3a11e2df07227aae822ef49/01_Vessel%20Delay%20Prediction%20Model/images/ROC%20curve.png)
+
+
+
 
 
 
