@@ -353,26 +353,21 @@ There 36 NUC vessels all across zones like VLCC anchorage zone, Western Outer An
 -	[ALG | Port congestion explained](https://www.alg-global.com/blog/maritime/port-congestion-why-delays-happen-and-how-mitigate-them#:~:text=Root%20causes%20of%20port%20congestion,Increased%20vessel%20sizes)
 -	[UN trade & development | Vessel turnaround time](https://sft-framework.unctad.org/key-performance-indicator/maritime-vessel-turnaround-time#:~:text=Ship%20turnaround%20time%20is%20the%20total%20time,equipment%20and%20other%20resources%20used%20at%20berth)
   
-____________________________________________________
-<br>
-<br>
+---
 
 # 5. Project Disclaimer ⚠️
 
 This Data Ecosystem project is based on October 2023 AIS data and represents conditions during that specific period. Port operations, capacity, and performance metrics may have changed since data collection and should not be considered precise forecasts. Readers should consult Singapore Port management and official reports for current operational data.
 
-______________________________________________________
-<br>
-<br>
+---
 
 # 6. About the Author
 
 Hi everyone!👋👋 My name is Yan, and I am a former seafarer with professional experience on merchant ships and superyachts. I am currently pursuing a career in data analytics, fueled by a deep passion for leveraging data to solve real-world problems.
 
 By combining my maritime domain knowledge with technical analytics, I aim to support maritimers and port authorities through data-driven systems. As a major step toward this goal, I have built a comprehensive data ecosystem for the Singapore Port, featuring an automated ETL pipeline, a vessel delay prediction model, and congestion and delay interactive dashboard and reports. Hope to enjoy my project and feel free to connect with me!🚢🌊
-______________________________________________________
-<br>
-<br>
+
+---
 
 # 7. Thank you for being here until the end 🙏🙌
 
@@ -388,10 +383,10 @@ A special thanks to the researchers at the University of St Andrews for providin
 
 Hope you have a great day! Cheer!
 
-_____________________________________________________
+---
+
 ### THE END
-<br>
-<br>
+
 
 🛡️ License This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
