@@ -56,6 +56,14 @@ This is the final stage, transform data and create view as a gold layer for busi
 ### 1.4 Documentation (log for cleaning data in ETL process) 📄
 Implemented a comprehensive Data Cleaning Log to ensure pipeline transparency, documenting the audit and correction of maritime-specific anomalies such as ETA inconsistencies and invalid vessel heading values. [Cleaning log](https://github.com/yanheinaung23-eng/Singapore-Port-Maritime-Data-Ecosystem-Project/blob/c3fb1504c1b9c4d85a6792ca1ff8cf611ea7174d/02_ETL%20Pipeline/Log%20for%20cleaning%20data%20in%20ETL.docx)
 
+---
+
+# 2. Delay Prediction ML Model 🤖
+
+The model is Random Forest classifier developed to predict vessel arrival delays at Singapore Port. The model was trained on AIS (Automatic Identification System) vessel tracking data containing 609,468 records from October–December 2023.
+
+
+
 
 
 
