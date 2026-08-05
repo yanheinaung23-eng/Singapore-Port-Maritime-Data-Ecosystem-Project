@@ -60,8 +60,13 @@ Implemented a comprehensive Data Cleaning Log to ensure pipeline transparency, d
 
 # 2. Delay Prediction ML Model 🤖
 
-The model is Random Forest classifier developed to predict vessel arrival delays at Singapore Port. The model was trained on AIS (Automatic Identification System) vessel tracking data containing 609,468 records from October–December 2023.
+The best model is Random Forest classifier developed to predict vessel arrival delays at Singapore Port. The model was trained on AIS (Automatic Identification System) vessel tracking data containing 609,468 records from October–December 2023.
 
+The model achieved **95.49%** accuracy and an recall of **96.45%** on unseen test data. The model is capable of predicting whether a vessel will arrive later than its ETA with high reliability, making it suitable for real-time port operations decision support.
+
+View the full python code here. [Full python notebook](https://github.com/yanheinaung23-eng/Singapore-Port-Maritime-Data-Ecosystem-Project/blob/fe580e423a56829b5de75b3c20c7fbc1691e1520/01_Vessel%20Delay%20Prediction%20Model/singapore_port_vessel_delay_prediction_model.ipynb)
+
+---
 
 
 
