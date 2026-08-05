@@ -165,7 +165,9 @@ print("Probability of Delay:", probability[0][1])
 Result:
 
 Prediction: **False**
+
 Probability of No Delay: **0.61**
+
 Probability of Delay: **0.39**
 
 ---
